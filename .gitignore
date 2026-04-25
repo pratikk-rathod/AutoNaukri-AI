@@ -1,0 +1,39 @@
+# Environments
+venv/
+env/
+.env
+
+# API Keys and Secrets
+*.pem
+*.key
+
+# Data & Logs (Avoid pushing personal jobs/cache to git)
+data/*
+!data/resume.example.txt
+logs/
+*.json
+!requirements.txt
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Legacy Backups
+core_legacy/
+scratch/
+
+# IDE configurations
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS config
+.DS_Store
+Thumbs.db
